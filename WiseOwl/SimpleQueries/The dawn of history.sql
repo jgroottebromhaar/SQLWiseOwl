@@ -1,2 +1,2 @@
-SELECT TOP 3 CategoryID, CategoryName
-FROM tblCategory ORDER BY CategoryName DESC;
+SELECT TOP 5 EventName AS 'What', EventDetails AS 'Details'
+FROM tblEvent ORDER BY EventDate;
